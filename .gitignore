@@ -1,0 +1,18 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# Окружение
+.env
+
+# Системные файлы
+.DS_Store
+Thumbs.db
