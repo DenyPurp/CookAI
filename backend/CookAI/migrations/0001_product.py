@@ -28,6 +28,7 @@ class Migration(migrations.Migration):
                 ("category", models.CharField(max_length=100)),
             ],
             options={
+                "db_table": "Products",
                 "ordering": ["name"],
             },
         ),

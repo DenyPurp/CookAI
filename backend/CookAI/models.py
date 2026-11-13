@@ -10,6 +10,7 @@ class Product(models.Model):
     category = models.CharField(max_length=100)
 
     class Meta:
+        db_table = "Products"
         ordering = ["name"]
 
     def __str__(self):
